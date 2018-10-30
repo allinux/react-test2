@@ -19,7 +19,7 @@ export default function ImgMediaCard(/*props*/) {
           alt="Contemplative Reptile"
           className="media"
           height="160"
-          image="/images/contemplative-reptile.jpg"
+          image="https://rawcdn.githack.com/allinux/react-test2/400b6659ceef383a32fe83b02891b58127aae42a/public/images/contemplative-reptile.jpg"
           title="Contemplative Reptile"
         />
         <CardContent>
