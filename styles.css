@@ -1,0 +1,28 @@
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.My2 {
+	text-align: center;
+	font-size: 50px;
+}
+
+.Card {
+	max-width: 345px;
+	margin-left: 10px;
+	margin-top: 10px;
+	display: inline-block;
+	position: relative;
+}
+
+.Media {
+	object-fit: "cover";
+}
+
+.Container {
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	position: relative;
+}
