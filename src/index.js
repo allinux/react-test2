@@ -5,7 +5,12 @@ import My2, { MyName } from "./components/My2";
 import MyBlock from "./components/Block";
 import MyProducts from "./components/MyProducts";
 import MyCard from "./components/MyCard";
+import PhoneForm from "./components/PhoneForm";
 import "./styles.css";
+
+var handleCreate = data => {
+	console.log(data);
+};
 
 function App() {
 	return (
@@ -44,6 +49,8 @@ function App() {
 				<MyCard />
 				<MyCard />
 			</div>
+
+			<PhoneForm onCreate={handleCreate} />
 		</div>
 	);
 }
