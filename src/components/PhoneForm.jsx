@@ -14,7 +14,7 @@ class PhoneForm extends Component {
 	render() {
 		return (
 			<form>
-				<input placeholder="?´ë¦?" value={this.state.name} onChange={this.handleChange} />
+				<input placeholder="ÀÌ¸§" value={this.state.name} onChange={this.handleChange} />
 				<div>{this.state.name}</div>
 			</form>
 		);
