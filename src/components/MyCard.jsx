@@ -24,7 +24,7 @@ export default function ImgMediaCard(/*props*/) {
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            이미지 타이틀
+            이미지 타이틀1
           </Typography>
           <Typography component="p">
             이미지 설명 이미지 카드 컴포넌트
